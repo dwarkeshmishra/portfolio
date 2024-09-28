@@ -125,91 +125,47 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Project Intern",
+    companyName: "IIT PATNA",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2024 - July 2024 ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led a team to develop a React-based web dashboard for Shoghi Tunnel and Chenab Bridge, utilizing React libraries to create multiple graph displays for sensor data and health metrics, reducing data monitoring time by 50%.",
+"Engineered a predictive ML model for sensor data, achieving a 30% boost in disaster forecasting accuracy, thereby improving worker safety measures for 200+ employees and showcasing advanced problem-solving skills.", 
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Software Enginnering Intern",
+    companyName: "IIT BHU , Varanasi",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Led a team to engineer a React Native Android app, focusing on intuitive UI/UX, enhancing user engagement by 25%, and showcasing leadership and teamwork.", 
+"Created and implemented a Siamese neural network-based ML model for cattle tracking, improving identification accuracy by 40%, and demonstrating problem-solving and innovative thinking.",
+      ],
   },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
-const testimonials: TTestimonial[] = [
-  {
+const testimonials: TTestimonial[] = [  
+{
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I am his team member and co-founder . He has shown excellent web designing skills and product design in multiple hackthons",
+    name: "Harsh",
+    designation: "Teammate",
+    company: "Team Infamous",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Ecostrategix.ai",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to track climate change, carbon footprint calculator and predict climate change . Further Llama 3.1 is integrated to provide adaptive strategies for climate change ",
     tags: [
       {
         name: "react",
@@ -228,9 +184,9 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Karnataka State Police Management Software",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables policec officers to address traffic congestion control and resolution through a central dashboard.",
     tags: [
       {
         name: "react",
@@ -249,9 +205,9 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Emossaheli AI",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A generative ai based mental health support agent built at IIIT Delhi on HOPE Dataset which help counsel people through semantic and descriptive answers.",
     tags: [
       {
         name: "nextjs",
